@@ -1,0 +1,120 @@
+#title{
+    background-color: #ff4c68;
+    padding: 0% 0 13% 0;
+}
+.container-fluid{
+    padding: 1% 7%;
+}
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+h2{
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 2% 0 1%;
+}
+p{
+    padding: 0% 4%;
+}
+.title-img{
+    transform: rotate(30deg);
+    width: 40%;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+h3{
+    font-weight: bolder;
+    margin: 2%;
+    font: Arial;
+}
+.navbar{
+    margin-bottom: 2%;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;}
+.feaicons{
+   color: #f67777;
+   width: 40px;
+   height: auto;
+}
+.feaicons:hover{
+    color: #ff4c68;
+}
+#features{
+    padding : 35px 0px 35px 0px;
+    text-align: center;
+    z-index: 1;
+    background-color: white;
+    padding: 10%;
+    position: relative;
+    font-family: 'Merriweather', serif;
+}
+#testimonials{
+    text-align: center;
+    padding : 2% 10%;
+    background-color: #f67777;
+    color: #fff;
+}
+.carousel-item{
+    padding : 5% 10% 3%;
+}
+#press{
+    text-align: center;
+    background-color: #f67777;
+    padding-bottom: 3%;
+}
+#pricing{
+    text-align: center;
+    padding: 3% 2% 5%;
+}
+.card-text{
+    font-family: 'Merriweather', serif;
+}
+.pricing-line{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 375;
+}
+.testimonials-img{
+    width: 150px;
+    border-radius: 100%;
+    margin: 1%;
+}
+.logo{
+    text-align: center;
+    padding: 0% 1% 2%;
+    width: 150px;
+}
+#cta{
+    background-color:#ff4c68 ;
+    padding: 5% 10%;
+    text-align: center;
+    color: #fff;
+}
+#footer{
+    text-align: center;
+    background-color: white;
+    padding-top: 2%;
+}
+#copy{
+    padding: 1%;
+}
+.dwld-buttons{
+   margin: 1% 1%;
+}
+@media (max-width: 995px){
+    .title-img{
+        transform: rotate(0deg);
+        width: 25%;
+    }
+    #title{
+        background-color: #ff4c68;
+        padding: 0% 0 45% 0;
+    }
+}
